@@ -1,0 +1,223 @@
+hr{
+    height: 2px;
+    background-color:whitesmoke;
+    border:none;
+
+}
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #222;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu-icon {
+    filter: brightness(0);
+}
+
+.main-heading {
+    font-family: 'Arial', sans-serif;
+    font-size: 32px;
+    color: #ffffff;
+}
+
+.navbar {
+    background-image: linear-gradient(to bottom, rgba(34, 34, 34,0.90), rgba(8, 8, 8, 0.90)), url(images/wellnessimg.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-family: 'Calibri', sans-serif;
+    color: white;
+    margin: 0 15px;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.large-content {
+    position: relative;
+    text-align: center;
+    background-image: linear-gradient(to top, rgba(34, 34, 34,0.90), rgba(8, 8, 8, 0.90)), url(images/wellnessimg.jpg);
+    padding: 100px 0;
+}
+
+.font-large {
+    font-family: 'Arial', sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.background-image {
+    max-width: 100%;
+    max-height: 100%;
+    border: 2px solid white;
+}
+
+.background-image {
+    max-width: 25%;
+    max-height: 25%;
+    border: 2px solid black;
+}
+
+.home-heading {
+    font-family: 'Arial', sans-serif;
+    font-size: 28px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    text-decoration: underline;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container {
+    flex: 1;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+}
+
+.container-text
+{
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    text-align: justify;
+}
+
+.background-image2 {
+    max-width: 75px;
+    max-height: 75px;
+    border: 2px solid black;
+}
+
+.home-text {
+    
+    padding-top:25px;
+    padding-bottom:25px;
+}
+
+.hamburger-icon {
+    display: none; 
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #222;
+    color: white;
+    padding: 30px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-logo {
+    flex: 1;
+}
+
+.footer-heading {
+    font-size: 24px;
+    margin: 0;
+}
+
+.footer-nav {
+    flex: 1;
+}
+
+.footer-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-menu li {
+    margin-bottom: 10px;
+}
+
+.footer-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-divider {
+    border-top: 1px solid #444;
+    margin: 20px 0;
+}
+
+.footer-contact {
+    
+    flex: 1;
+   
+}
+
+.contact-info {
+    font-size: 16px;
+    margin: 0;
+    text-decoration: none;
+}
+
+.footer-disclaimer {
+    text-align: center;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .hamburger-icon {
+        display: block; 
+    }
+
+
+.menu a {
+    font-size: 12px; 
+}
+}
+
+@media screen and (max-width: 768px) {
+    .menuitems {
+        display: none;
+        font-size: 10px;
+    }
+
+    .menuitems.active {
+        display: block;
+        font-size: 10px;
+       
+    }
+}

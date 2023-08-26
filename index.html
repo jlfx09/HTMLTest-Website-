@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<HTML lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <title>Wellness Website</title>
+    </head>
+    
+    <body>
+        <header class="header">
+         
+            <h1 class="main-heading">Wellness Inc.</h1>
+         
+        </header>
+        
+        <nav class="navbar">
+    <div class="hamburger-icon">
+        <i class="bx bx-menu"></i>
+    </div>
+    <div class="menu-container">
+        <div class = "menuitems">
+            <ul>
+                <li><a href="#"><i class='bx bx-home-alt-2 homeicon'></i> Home</a></li>
+                <li><a href="#"><i class='bx bx-question-mark homeicon'></i> Who We Are</a></li>
+                <li><a href="#"><i class='bx bx-edit-alt homeicon'></i> What We Do</a></li>
+                <li><a href="#"><i class='bx bx-phone homeicon'></i> Contact Us</a></li>
+                <li><a href="#"><i class='bx bx-note homeicon'></i> Make an Appointment</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+        
+        <div class="large-content">
+            <h1 class="font-large">Your Path to Wellness <br> Starts Here...</h1>
+            <div class = "image-container">
+            <img src="images/Wellness.jpg" class="background-image" alt = "Wellness Image">
+            </div>
+
+            <div class = "home-text">    
+                <h1 class="home-heading">HOME</h1>
+            </div>
+            
+            <div class="flex-container">
+                <div class="container">
+                    <h1> Home Wellness<br>
+                        <img src = "images/House1.png" class="background-image2" alt = "Home Icon">
+                    </h1>
+                    <hr>
+                    <p class = "container-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                </div>
+                <div class="container">
+                    <h1>Mental Wellness <br>
+                    <img src = "images/Icon1.png" class="background-image2" alt = "Wellness Icon">
+                    </h1>
+                    <hr>
+                    <p class = "container-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                </div>
+                <div class="container">
+                    <h1> Spiritual Wellness <br> <img src = "images/Spiritual.png" class= "background-image2" alt = "Spiritual Wellness"> <hr> </h1>
+                    <p class = "container-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                </div>
+            </div>
+        </div>
+        
+        <script>
+        const hamburgerIcon = document.querySelector('.hamburger-icon');
+        const menuItems = document.querySelector('.menuitems');
+
+        hamburgerIcon.addEventListener('click', () => {
+        menuItems.classList.toggle('active');
+        });
+        </script>
+        
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2 class="footer-heading">Wellness Inc.</h2>
+                </div>
+                <div class="footer-nav">
+                    <ul class="footer-menu">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Disclaimer</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <p class="contact-info">
+                        Contact us: +694298434231
+                    </p>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <p class="footer-disclaimer">© 2023 Wellness Inc. All rights reserved.</p>
+        </footer>
+
+
+    </body>
+    </html>
