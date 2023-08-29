@@ -11,3 +11,7 @@ Then to commit changes, use command git commit -m "comment".
 then use command  git remote add origin [URL]
 
 followed by git push origin main to see changes in GITHUB Repository.
+
+
+File Descriptions:
+HTML and CSS file aimed to further the knowledge for website development from scratch. Made using Visual Studio Code.
